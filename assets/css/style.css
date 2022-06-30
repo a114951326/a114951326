@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+
+/* basis */
+
+.color-dark{
+    color: #2D3142;
+}
+
+.color-head{
+  color:  #4F5D75;
+}
+
+.color-plat{
+    color: #BFC0C0;
+}
+
+.color-w{
+    color: white;
+}
+
+.color-orange{
+    color: #EF8354;
+}
+
+.color-gray{
+    color: #EAEBEB;
+}
+
+.inline-flex{
+    display: flex;
+}
+
+.text-c{
+    text-align: center;
+}
+
+#font-1{
+    font-size: 1rem;
+}
+
+.m-auto{
+    margin: 0 auto;
+}
+/* title */
+
+h1{
+    font-family: 'Righteous', cursive;
+    padding: 4vw 0;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin: 7vw 0;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+/* paragraphe */
+
+p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+
+
+/* header */
+
+header{
+    background-color: #4F5D75;
+    margin: 0 auto;
+    padding: 5vw;
+    text-transform: uppercase;
+    border: 0.4vw solid #BFC0C0;
+}
+
+
+/* BAR DE NAVIGATION */
+
+ul{
+    margin: 0 auto;
+}
+
+a, li{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+
+}
+a:hover{
+    background-color: #EF8354;
+    padding: 1vw 5vw;
+    border-radius: 1rem;
+
+}
+
+nav li{
+    list-style: none;
+}
+
+li{
+    margin: 2vw 0;
+}
+
+nav{
+    margin: 0 16vw;
+}
+
+/* buton change color */
+
+button{
+    background-color: #2D3142;
+    border: 0.3vw solid #fff;
+    border-radius: 1.5vw;
+    height: 6vw;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+}
+
+/* tableau */
+thead,
+tfoot {
+    background-color: #4F5D75;
+    color: #fff;
+}
+
+tbody {
+    background-color: #fff;
+}
+
+
+table {
+    border: 0.2vw solid rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: .8rem;
+    font-family: 'Lato', sans-serif;
+}
+
+td,
+th {
+    border: 0.2vw solid rgb(0, 0, 0);
+    padding: 2vw 4vw;
+}
+
+/* float */
+
+.float-r{
+    float: right;
+}
+
+.float-l{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+/* implementation "js" le (style) */
+.item-img{
+    width: 25.5vw;
+    height: 25.5vw;
+}
+
+.article-js{
+    width: 25%;
+    display: inline;
+}
+
+.section-js{
+    width: 22.5vw;
+    height: 22.5vw;
+    overflow: hidden;
+    border-radius: 3vw;
+    
+}
+
+/* blog */
+
+#blog{
+    margin: 0 20vw;
+}
+
+.blog-img{
+    width: 60vw;
+    height: 20vw;
+}
+
+.shadow-blog{
+    box-shadow: 0.2rem 0.2rem 2rem rgb(0, 0, 0);
+}
